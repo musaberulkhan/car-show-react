@@ -6,7 +6,7 @@
         "engine": "1968 cc",
         "power": "248 hp @ 4300 rpm",
         "transmission": "7-Speed (Automatic)",
-        "top-speed":"155 Kmph",
+        "topSpeed":"155 Kmph",
         "price": 10600000
     },
     {
@@ -16,7 +16,7 @@
         "engine": "1329 cc",
         "power": "73 [97.89] hp @ 6000 rpm",
         "transmission": "7-Speed (Automatic)",
-        "top-speed":"146.25 Kmph",
+        "topSpeed":"146.25 Kmph",
         "price": 2950000
     },
     {
@@ -26,7 +26,7 @@
         "engine": "1595 cc",
         "power": "156 Hp @ 5300 rpm",
         "transmission": "9-Speed (Automatic)",
-        "top-speed":"250 Kmph",
+        "topSpeed":"250 Kmph",
         "price": 12500000
     },
     {
@@ -36,7 +36,7 @@
         "engine": "1995 cc",
         "power": "200 Nm @ 4400 rpm",
         "transmission": "6-Speed (Manual)",
-        "top-speed":"200 Kmph",
+        "topSpeed":"200 Kmph",
         "price": 5800000
     },
     {
@@ -46,7 +46,7 @@
         "engine": "1197 cc",
         "power": "113 @ 4200 rpm",
         "transmission": "5-Speed (Manual)",
-        "top-speed":"160 Kmph",
+        "topSpeed":"160 Kmph",
         "price": 1425000
     },
     {
@@ -56,7 +56,7 @@
         "engine": "1497 cc",
         "power": "120 hp @ 6600 rpm",
         "transmission": "6-Speed (Auto/Manual)",
-        "top-speed":"116 Kmph",
+        "topSpeed":"116 Kmph",
         "price": 5750000
     }
 ]
