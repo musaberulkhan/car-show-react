@@ -2,7 +2,7 @@
     {
         "id": 10001,
         "model": "AUDI A6",
-        "image" : "images/car.png",
+        "image" : "https://www.autosbangla.com/images/audi/audi-a6-img1.jpg",
         "engine": "1968 cc",
         "power": "248 hp @ 4300 rpm",
         "transmission": "7-Speed (Automatic)",
@@ -12,7 +12,7 @@
     {
         "id": 10002,
         "model": "TOYOTA YARIS 1.3L",
-        "image" : "images/car.png",
+        "image" : "https://www.autosbangla.com/images/toyota/toyota-yaris-1-3l-img1.jpg",
         "engine": "1329 cc",
         "power": "73 [97.89] hp @ 6000 rpm",
         "transmission": "7-Speed (Automatic)",
@@ -22,7 +22,7 @@
     {
         "id": 10003,
         "model": "MERCEDES-BENZ E CLASS 180",
-        "image" : "images/car.png",
+        "image" : "https://www.autosbangla.com/images/mercedes-benz/mercedes-benz-e-class-180-img1.jpg",
         "engine": "1595 cc",
         "power": "156 Hp @ 5300 rpm",
         "transmission": "9-Speed (Automatic)",
@@ -32,7 +32,7 @@
     {
         "id": 10004,
         "model": "NISSAN XTRAIL",
-        "image" : "images/car.png",
+        "image" : "https://www.autosbangla.com/images/nissan/nissan-xtrail-img2.jpg",
         "engine": "1995 cc",
         "power": "200 Nm @ 4400 rpm",
         "transmission": "6-Speed (Manual)",
@@ -42,7 +42,7 @@
     {
         "id": 10005,
         "model": "SUZUKI WAGONR VXI 1.2L",
-        "image" : "images/car.png",
+        "image" : "https://www.autosbangla.com/images/suzuki/suzuki-wagon-r-vxi-img2.jpg",
         "engine": "1197 cc",
         "power": "113 @ 4200 rpm",
         "transmission": "5-Speed (Manual)",
@@ -52,11 +52,41 @@
     {
         "id": 10006,
         "model": "HONDA HRV",
-        "image" : "images/car.png",
+        "image" : "https://www.autosbangla.com/images/honda/honda-hrv-img2.jpg",
         "engine": "1497 cc",
         "power": "120 hp @ 6600 rpm",
         "transmission": "6-Speed (Auto/Manual)",
         "topSpeed":"116 Kmph",
         "price": 5750000
+    },
+    {
+        "id": 10007,
+        "model": "MITSUBISHI PAJERO SPORT",
+        "image" : "https://www.autosbangla.com/images/mitsubishi/mitsubish-pajero-sport-img1.jpg",
+        "engine": "2477 cc",
+        "power": "100 hp @ 4000 rpm",
+        "transmission": "5-Speed (Automatic)",
+        "topSpeed":"166 Kmph",
+        "price": 9900000
+    },
+    {
+        "id": 10008,
+        "model": "HYUNDAI SONATA",
+        "image" : "https://www.autosbangla.com/images/hyundai/hyundai-sonata-img3.jpg",
+        "engine": "1999 cc",
+        "power": "152 hp @ 6200 rpm",
+        "transmission": "6-Speed (Automatic)",
+        "topSpeed":"209.21 Kmph",
+        "price": 5600000
+    },
+    {
+        "id": 10009,
+        "model": "TATA TIAGO 1.2L",
+        "image" : "https://www.autosbangla.com/images/tata/tata-tiago-img1.jpg",
+        "engine": "1199 cc",
+        "power": "85 hp @ 6000 rpm",
+        "transmission": "6-Speed-Auto Manual Training(AMT)",
+        "topSpeed":"150 Kmph",
+        "price": 1695000
     }
 ]
