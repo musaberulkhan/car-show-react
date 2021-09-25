@@ -1,0 +1,10 @@
+.header{
+    text-align: center;
+    background-color: #292929;
+    color: aliceblue;
+    padding: 12px 0;
+}
+
+.header h4 span{
+    color: #ffa1a1;
+}

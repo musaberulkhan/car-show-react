@@ -48,5 +48,15 @@
         "transmission": "5-Speed (Manual)",
         "top-speed":"160 Kmph",
         "price": 1425000
+    },
+    {
+        "id": 10006,
+        "model": "HONDA HRV",
+        "image" : "images/car.png",
+        "engine": "1497 cc",
+        "power": "120 hp @ 6600 rpm",
+        "transmission": "6-Speed (Auto/Manual)",
+        "top-speed":"116 Kmph",
+        "price": 5750000
     }
 ]
