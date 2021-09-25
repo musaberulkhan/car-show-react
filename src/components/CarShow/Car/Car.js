@@ -4,8 +4,8 @@ import './Car.css';
 
 const Car = (props) => {
 
-    const { model, image, engine, power, transmission, topSpeed, price } = props.car;
-    console.log(image);
+    const { id, model, image, engine, power, transmission, topSpeed, price } = props.car;
+    
     return (
         <div className="car card">
             <img className="img-fluid card-img-top" src={image} alt="" />
@@ -16,12 +16,11 @@ const Car = (props) => {
                     <li>Power: {power}</li>
                     <li>Transmission: {transmission}</li>
                     <li>Top speed: {topSpeed}</li>
-                    <li>Price: {price}</li>
-                    <li>Engine: {engine}</li>
+                    <li>Price: {price}</li>                    
                 </ul>
             </div>
             <div className="card-footer">
-                <button className="add-car-button">Add Car</button>
+                <button onClick={() => props.handleClickEvent(props.car)} className="add-car-button">Add Car</button>
             </div>
         </div>
     );
