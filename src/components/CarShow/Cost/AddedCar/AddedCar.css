@@ -1,0 +1,9 @@
+.addedCar{
+    display: flex;
+    align-items: center;
+}
+
+.addedCar img{
+    height: 50px;
+    width: 80px;    
+}

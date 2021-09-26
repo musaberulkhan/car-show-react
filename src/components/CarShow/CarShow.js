@@ -23,14 +23,12 @@ const CarShow = () => {
 
         for (const selectedCar in newSelectedCars) {
             if (id === newSelectedCars[selectedCar].id) {
-                carExist = true;
-                newSelectedCars[selectedCar].quantity = parseInt(newSelectedCars[selectedCar].quantity) + 1;                              
+                carExist = true;                                        
             }
         }
 
         if (carExist === false) {
-            let newCar = car;
-            newCar.quantity = 1;
+            let newCar = car;         
             newSelectedCars = [...selectedCars, newCar];
             
         }
