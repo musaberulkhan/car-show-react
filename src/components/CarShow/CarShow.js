@@ -62,7 +62,7 @@ const CarShow = () => {
                 </div>
 
                 {/* --------------   Cost Displaying   --------------- */}
-                <div className="cost-container m-3">
+                <div className="cost-container mx-1 my-3">
                     <h4>Cost Breakdown:</h4>
                     <Cost
                         cars={selectedCars}></Cost>
