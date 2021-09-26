@@ -40,9 +40,9 @@ const CarShow = () => {
         <div>
             {/* --------------   Header Container   --------------- */}
             <div className="header">
-                <h2>Car Show in Dhaka!</h2>
-                <p className="my-0">Biggest car show in 2021</p>
-                <h4>Budget: <span>10 Core BDT</span></h4>
+                <h2 className="mb-0">Car Show in Dhaka!</h2>
+                <p className="mb-1">Biggest car show of 2021! Make a list within budget and submit to us</p>
+                <h4>Budget: <span>5 Core BDT</span></h4>
             </div>
 
             {/* --------------   Car Show Container   --------------- */}
@@ -62,7 +62,7 @@ const CarShow = () => {
                 </div>
 
                 {/* --------------   Cost Displaying   --------------- */}
-                <div className="cost-container mx-1 my-3">
+                <div className="cost-container mx-2 my-3">
                     <h4>Cost Breakdown:</h4>
                     <Cost
                         cars={selectedCars}></Cost>

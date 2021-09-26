@@ -10,7 +10,8 @@ const Cost = (props) => {
     });
     return (
         <div className="cost p-2">
-            <h5 className="mb-3">Total: {totalPrice}</h5><hr/>
+            <h5 className="mb-1">Total Cost: {totalPrice}</h5>
+            <h6 className="mb-3">Selected Cars: {cars.length}</h6><hr/>
             {
                cars.map(car => <AddedCar key={car.id} car={car}/>) 
             }
