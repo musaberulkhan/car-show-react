@@ -23,19 +23,19 @@ const CarShow = () => {
 
         for (const selectedCar in newSelectedCars) {
             if (id === newSelectedCars[selectedCar].id) {
-                carExist = true;                                        
+                carExist = true;
             }
         }
 
         if (carExist === false) {
-            let newCar = car;         
+            let newCar = car;
             newSelectedCars = [...selectedCars, newCar];
-            
+
         }
         setSelectedCars(newSelectedCars);
     }
 
-
+    // ----------   Return Main Body    -----------
     return (
         <div>
             {/* --------------   Header Container   --------------- */}

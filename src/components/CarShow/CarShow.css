@@ -1,3 +1,4 @@
+/* -----------   Header Style    ----------- */
 .header{
     text-align: center;
     background-color: #292929;
@@ -9,6 +10,8 @@
     color: #ffa1a1;
 }
 
+
+/* -----------   Car Show Container    ----------- */
 .car-show-container{
     display: grid;
     grid-template-columns: 3fr 1fr;

@@ -6,13 +6,16 @@ import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-i
 
 
 const Car = (props) => {
+    //---------  Destructuring Props values   ----------
+    const { model, image, engine, power, transmission, topSpeed, price, facebook, twitter, youtube } = props.car;
 
-    const { id, model, image, engine, power, transmission, topSpeed, price, facebook, twitter, youtube } = props.car;
-
+    //---------  Return Main Body   ----------
     return (
         <div className="car card">
+            {/* ---------   Car Image    ----------- */}
             <img className="img-fluid card-img-top" src={image} alt="" />
             <div className="card-body pb-0">
+                {/* ---------   Car Details    ----------- */}
                 <h5>{model}</h5>
                 <ul>
                     <li>Engine: {engine}</li>
@@ -23,11 +26,14 @@ const Car = (props) => {
                 </ul>
             </div>
             <div className="card-footer">
+                {/* ---------   Add Car Button    ----------- */}
                 <button
                     onClick={() => props.handleClickEvent(props.car)}
                     className="add-car-button">
                     <FontAwesomeIcon icon={faPlus} /> Add Car
                 </button>
+
+                {/* ---------   Social Icons    ----------- */}
                 <div className="social">
                     <a href={facebook}>
                         <FontAwesomeIcon size='2x' className="social-icon" icon={faFacebook} />
