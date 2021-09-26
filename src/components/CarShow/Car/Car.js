@@ -1,11 +1,13 @@
 import React from 'react';
 import './Car.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 
 const Car = (props) => {
 
     const { id, model, image, engine, power, transmission, topSpeed, price } = props.car;
-    
+
     return (
         <div className="car card">
             <img className="img-fluid card-img-top" src={image} alt="" />
@@ -16,11 +18,15 @@ const Car = (props) => {
                     <li>Power: {power}</li>
                     <li>Transmission: {transmission}</li>
                     <li>Top speed: {topSpeed}</li>
-                    <li>Price: {price}</li>                    
+                    <li>Price: {price}</li>
                 </ul>
             </div>
             <div className="card-footer">
-                <button onClick={() => props.handleClickEvent(props.car)} className="add-car-button">Add Car</button>
+                <button
+                    onClick={() => props.handleClickEvent(props.car)}
+                    className="add-car-button">
+                    <FontAwesomeIcon icon={faPlus} /> Add Car
+                </button>
             </div>
         </div>
     );
