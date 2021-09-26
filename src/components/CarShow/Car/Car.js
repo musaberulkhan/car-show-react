@@ -2,7 +2,7 @@ import React from 'react';
 import './Car.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 
 const Car = (props) => {

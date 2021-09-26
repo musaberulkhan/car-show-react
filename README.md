@@ -1,6 +1,6 @@
 # Car Show Dhaka 2021 || User's Choice
 
-To view this project, please click [Car Show Dhaka 2021](https://github.com/facebook/create-react-app).
+To view this project, please click [Car Show Dhaka 2021](https://car-show-musaberul.netlify.app/).
 
 ## About this project
 * We provide available cars list with specifications
